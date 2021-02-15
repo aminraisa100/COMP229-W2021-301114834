@@ -1,5 +1,5 @@
 {
-  "name": "comp229-f2020-week3",
+  "name": "comp229assignment1",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -33,5 +33,8 @@
   "bugs": {
     "url": "https://github.com/tsiliopoulos/COMP229-F2020-Week3/issues"
   },
-  "homepage": "https://github.com/tsiliopoulos/COMP229-F2020-Week3#readme"
+  "homepage": "https://github.com/tsiliopoulos/COMP229-F2020-Week3#readme",
+  "keywords": [
+    "index.js"
+  ]
 }
