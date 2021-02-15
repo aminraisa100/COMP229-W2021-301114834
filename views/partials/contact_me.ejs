@@ -1,0 +1,30 @@
+<!-- Contact me Page -->
+  <% if (title == "Contact"){ %>
+    
+    <div class="form">
+     <div class="column">
+       <b>Name: Raisa Amin
+       Contact: +1438888888
+       Email: ramin17@my.centennialcollege.ca
+       Address: Toronto, ON, Canada.</b>
+     </div>
+      <div class="column">
+     <form action="/contact" method="POST">
+       <label for="fname">First name:</label><br>
+       <input type="text" id="fname" name="fname" value=""><br>
+       <label for="fname">Last name:</label><br>
+       <input type="text" id="lname" name="lname" value=""><br>
+       <label for="fname">Contact number:</label><br>
+       <input type="text" id="cont" name="cont" value=""><br>
+       <label for="fname">Email:</label><br>
+       <input type="text" id="mail" name="mail" value=""><br>
+       <label for="fname">Message:</label><br>
+       <textarea rows="5" cols="50" name="message" form="usrform">
+         Enter text here...</textarea></br>
+       <div class="button"><input type="submit" value="Submit"></br></div>
+       
+     </form> 
+      </div>
+      </div> </br></br></br>
+   </div>
+   <% } %>
