@@ -45,4 +45,15 @@ router.post('/contact', function(req, res, next) {
   res.redirect('/home');
 });
 
+/* GET Login page. */
+router.get('/login', function(req, res, next) {
+  res.render('index', { title: 'Login'});
+});
+
+/* POST Login page. */
+router.post('/login', function(req, res, next) {
+  contactName = req.body.fname;
+  res.redirect('/home');
+});
+
 module.exports = router;
