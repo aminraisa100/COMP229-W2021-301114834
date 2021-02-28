@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap');
 
 .jumbotron{
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+  opacity: 0;
+  opacity: 1;
 }
 a{
     text-decoration: none;
@@ -13,8 +13,21 @@ ol,ul{
 }
 h1, h2, h3, h4, h5, h6, p{
     padding: 10;
-    margin: 0;   
+    margin: 0; 
+    text-align: center;  
 }
+h1, h2, h3, h4, h5, h6{
+    margin: auto;
+    width: 60%;
+    border: 3px;
+    padding: 10px;
+  }
+  .btn_ban_1{
+    margin: auto;
+    width: 100%;
+    border: 8px;
+    padding: 20px;
+  }
 .button1 {
   background-color: #4e5c6c;
   border: none;
@@ -58,6 +71,7 @@ nav.navbar ul li a {
 }
 .display-4{
    color: #0872b9;
+   font-size: 42px;
    font-family: 'Lato', 'Source Sans Pro';
    transition: 0.9s;
    font-weight: 300;
@@ -298,14 +312,14 @@ nav.navbar ul li a {
 
 .container {
   position: relative;
-  text-align: center;
   color: #506a85;
   padding: 0px;
   padding-bottom: 0px;
-  padding-top: 0px;
+  padding-top: 10px;
 }
 .row{
   background-color: lightblue;
+  padding-inline: 10%;
 }
 .about{
  background-color: lightblue;
@@ -313,4 +327,6 @@ nav.navbar ul li a {
 }
 .form{
  background-color: lightblue;
+ position: relative;
+ padding-left: 20px;
 }

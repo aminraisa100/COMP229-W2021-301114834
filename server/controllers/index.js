@@ -19,8 +19,8 @@ module.exports.displayAboutPage = (req, res, next) => {
     res.render('index', { title: 'About', displayName: req.user ? req.user.displayName : ''});
 }
 
-module.exports.displayProductsPage = (req, res, next) => {
-    res.render('index', { title: 'Products', displayName: req.user ? req.user.displayName : ''});
+module.exports.displayProjectsPage = (req, res, next) => {
+    res.render('index', { title: 'Projects', displayName: req.user ? req.user.displayName : ''});
 }
 
 module.exports.displayServicesPage = (req, res, next) => {
