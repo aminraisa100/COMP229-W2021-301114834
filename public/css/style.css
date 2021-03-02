@@ -11,7 +11,7 @@ a{
 ol,ul{
      list-style-type: square;
 }
-h1, h2, h3, h4, h5, h6, p{
+h1, h2, h4, h5, h6, p{
     padding: 10;
     margin: 0; 
     text-align: center;  
@@ -319,7 +319,7 @@ nav.navbar ul li a {
 }
 .row{
   background-color: lightblue;
-  padding-inline: 10%;
+  
 }
 .about{
  background-color: lightblue;

@@ -13,13 +13,18 @@ router.get('/home', indexController.displayHomePage);
 router.get('/about', indexController.displayAboutPage);
 
 /* GET Projects page. */
-router.get('/products', indexController.displayProjectsPage);
+router.get('/projects', indexController.displayProjectsPage);
 
 /* GET Services page. */
 router.get('/services', indexController.displayServicesPage);
 
 /* GET Contact Us page. */
 router.get('/contact', indexController.displayContactPage);
+
+/* POST Contact Us page. */
+router.post('/contact', indexController.displayHomePage);
+
+
 
 /* GET Route for displaying the Login page */
 router.get('/login', indexController.displayLoginPage);

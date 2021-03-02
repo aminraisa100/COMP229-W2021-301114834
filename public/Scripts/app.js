@@ -10,10 +10,10 @@
         for(button of deleteButtons)
         {
             button.addEventListener('click', (event)=>{
-                if(!confirm("Are you sure?")) 
+                if(!confirm("Are you sure to delete this data?")) 
                 {
                     event.preventDefault();
-                    window.location.assign('/book-list');
+                    window.location.assign('/contact');
                 }
             });
         }

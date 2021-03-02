@@ -1,7 +1,7 @@
 <!-- Main Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <img src="images/logo2.png" alt=""  width=120 height=60>
-    <a class="navbar-brand" href="/">Express porttfolio site</a>
+    <a class="navbar-brand" href="/">Express-portfolio site</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -22,7 +22,7 @@
         <% } else  { %>
         <li class="nav-item">
         <% } %>
-          <a class="nav-link" href="/about"><i class="fas fa-info-circle"></i> About </a>
+          <a class="nav-link" href="/about"><i class="fas fa-info-circle"></i> About me</a>
         </li>
 
         <% if (title == "Projects") { %>
@@ -30,7 +30,7 @@
         <% } else  { %>
         <li class="nav-item">
         <% } %>
-          <a class="nav-link" href="/projects"><i class="fab fa-elementor"></i> Projects </a>
+          <a class="nav-link" href="/projects"><i class="fab fa-elementor"></i> My Projects </a>
         </li>
 
         <% if (title == "Services") { %>
@@ -46,7 +46,7 @@
         <% } else  { %>
         <li class="nav-item">
         <% } %>
-          <a class="nav-link" href="/book-list"><i class="fas fa-book"></i> Books </a>
+          <a class="nav-link" href="/book-list"><i class="fas fa-book"></i> Business contact list </a>
         </li>
 
         <% if (title == "Contact") { %>
@@ -60,10 +60,10 @@
         <% if(typeof displayName == 'string' && displayName) { %>
           <li class="navbar-text"><i class="fas fa-lg fa-user"></i> Welcome, <%= displayName %></li>
           <li class="nav-item"><a href="/logout" class="nav-link">
-            <i class="fas fa-lg fa-sign-out-alt"></i> Logout</a></li>
+          <i class="fas fa-lg fa-sign-out-alt"></i> Logout</a></li>
         <% } else { %>
           <li class="nav-item"><a href="/login" class="nav-link">
-            <i class="fas fa-lg fa-sign-in-alt"></i> Login</a></li>
+            <i class="fas fa-lg fa-sign-in-alt"></i> Login/Register</a></li>
         <% } %>
 
 
