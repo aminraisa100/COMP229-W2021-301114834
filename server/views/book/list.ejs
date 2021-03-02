@@ -1,5 +1,4 @@
 <%- include ../partials/header.ejs %>
-
 <%- include ../partials/main_nav.ejs %>
   
 
@@ -28,8 +27,8 @@
                     <% } else { %>
                         <th class="text-center col-2">Contact Name</th>
                         <th class="text-center col-2">Username</th>
-                        <th class="text-center col-1">Contact Number</th>
-                        <th class="col-6">Email</th>
+                        <th class="text-center col-2">Contact Number</th>
+                        <th class="col-3">Email</th>
                         <th class="text-center col-1">Rank</th>
                     <% } %>
                 </tr>
@@ -55,8 +54,8 @@
                          <% } else { %>
                             <td class="text-center col-2"><%= BookList[count].name %></td>
                             <td class="text-center col-2"><%= BookList[count].author %></td>
-                            <td class="text-center col-1"><%= BookList[count].published %></td>
-                            <td class="col-6"><%= BookList[count].description %></td>
+                            <td class="text-center col-2"><%= BookList[count].published %></td>
+                            <td class="col-3"><%= BookList[count].description %></td>
                             <td class="text-center col-1"><%= BookList[count].price %></td>  
                          <% } %>
                     </tr>

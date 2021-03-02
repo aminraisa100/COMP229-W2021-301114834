@@ -318,6 +318,7 @@ nav.navbar ul li a {
   padding-top: 10px;
 }
 .row{
+  padding-inline: auto;
   background-color: lightblue;
   
 }
