@@ -1,3 +1,6 @@
-# COMP229assignment2
-Author: Raisa Amin
-Date 28/02/2021
+# COMP229-MidTerm Test
+
+## MidTerm Project - Book List App
+
+Student: Raisa Amin
+Student Number: 301114834
